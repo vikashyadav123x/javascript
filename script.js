@@ -21,9 +21,27 @@ console.log(`String
   multiple
   lines`);
 
-const age = 19;
-const isOldEnough = age >= 18;
+const age = 15;
 
-if (isOldEnough) {
+if (age >= 18) {
   console.log("Sarah can start driving license");
+} else {
+  console.log(
+    `Sarah can not drive not at this moment but in ${
+      18 - age
+    } years from now she can drive `
+  );
 }
+
+const birthYea = 1919;
+let century;
+if (birthYea <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
+const inputYear = "1991";
+console.log(Number(inputYear) + 10);
+console.log(typeof inputYear);
