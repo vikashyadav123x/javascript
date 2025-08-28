@@ -45,3 +45,38 @@ console.log(century);
 const inputYear = "1991";
 console.log(Number(inputYear) + 10);
 console.log(typeof inputYear);
+
+const money = 0;
+if (money) {
+  console.log("you have money fkr");
+} else {
+  console.log("get some job dude");
+}
+
+let height = 50;
+if (height) {
+  console.log("your height is good");
+} else {
+  console.log("drink complan brother");
+}
+
+// const favourite = Number(prompt("Enter your fav number"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 23) {
+//   console.log("it is a good number");
+// }
+
+const hasDriverLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriverLicense && hasGoodVision);
+
+const shouldDrive = hasDriverLicense && hasGoodVision;
+
+if (shouldDrive) {
+  console.log("she can drive");
+} else {
+  console.log("i should drive insted of sara");
+}
